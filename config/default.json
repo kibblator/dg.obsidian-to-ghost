@@ -1,0 +1,6 @@
+{
+    "ghost": {
+        "domain": "{ADMIN DOMAIN GOES HERE}",
+        "apiKey": "{API KEY GOES HERE}"
+    }
+}
