@@ -1,0 +1,1 @@
+# dg.obsidian-to-ghost
