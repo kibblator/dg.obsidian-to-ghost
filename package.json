@@ -1,0 +1,25 @@
+{
+  "name": "dg.obsidian-to-ghost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "bin": {
+    "o2g": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node ./dist/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
+  }
+}
